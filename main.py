@@ -162,7 +162,13 @@ def gerar_graficos():
         plt.savefig(DIRETORIO_RESULTADOS / "e1_frequencias.png", dpi=150)
         plt.close()
 
-    if "e2" in RESULTADOS:
+    if (
+    "e2" in RESULTADOS
+    and all(
+        semente in RESULTADOS["e2"]
+        for semente in (10, 2026, 123456)
+    )
+):
         # E2: medias acumuladas em 3 sementes.
         plt.figure(figsize=(10, 5))
         for semente in (10, 2026, 123456):
