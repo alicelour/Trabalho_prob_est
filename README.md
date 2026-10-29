@@ -1,4 +1,4 @@
-# 🎰 Máquina Estatística: Probabilidade, Apostas e Pensamento Crítico
+#  Máquina Estatística: Probabilidade, Apostas e Pensamento Crítico
 
 Projeto desenvolvido para a disciplina de **Probabilidade e Estatística I**, do curso de Bacharelado em Sistemas de Informação do Instituto Federal do Espírito Santo (IFES) — Campus Serra.
 
@@ -6,12 +6,12 @@ O projeto consiste no desenvolvimento de um simulador de uma máquina de três r
 
 > **Simulador acadêmico — somente créditos fictícios.**
 
-## 👥 Integrantes
+##  Integrantes
 
 - Alice Lourenço dos Reis
 - Remerson Victor Silva da Assurreição
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Implementar um simulador de uma máquina de três rolos com resultados aleatórios.
 - Calcular probabilidades e valores esperados teoricamente.
@@ -21,7 +21,7 @@ O projeto consiste no desenvolvimento de um simulador de uma máquina de três r
 - Avaliar como alterações nos pagamentos influenciam o retorno esperado.
 - Exportar resultados em arquivos CSV e gerar gráficos para apoiar a análise.
 
-## 🎮 Como funciona a máquina?
+##  Como funciona a máquina?
 
 A máquina possui três rolos independentes, cada um com cinco símbolos organizados em uma sequência circular:
 
@@ -54,7 +54,7 @@ O prêmio bruto corresponde ao valor recebido pela combinação premiada. O lucr
 \text{Lucro líquido}=\text{Prêmio bruto}-\text{Aposta}
 \]
 
-## 📐 Fundamentação matemática
+## Fundamentação matemática
 
 ### Probabilidade de ganhar
 
@@ -104,7 +104,7 @@ Os valores teóricos são calculados matematicamente a partir das regras da máq
 
 Como a simulação utiliza uma quantidade finita de rodadas, as frequências, as médias e o RTP observados podem diferir dos valores teóricos.
 
-## 🧪 Experimentos realizados
+## Experimentos realizados
 
 ### Experimento 1 — Distribuição dos resultados
 
@@ -164,7 +164,7 @@ O simulador utiliza os seguintes indicadores:
 | RTP | Mede o retorno bruto em relação ao total apostado |
 | Probabilidade condicional | Estima a ocorrência de um evento considerando outro evento anterior |
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **Python:** implementação do simulador e dos cálculos estatísticos.
 - **Random:** geração de números pseudoaleatórios.
@@ -173,7 +173,7 @@ O simulador utiliza os seguintes indicadores:
 - **Matplotlib:** geração de gráficos.
 - **VS Code:** ambiente de desenvolvimento.
 
-## 🚀 Como executar o projeto
+## Como executar o projeto
 
 ### Pré-requisitos
 
@@ -227,7 +227,7 @@ Após a execução, os arquivos gerados ficam organizados na pasta `resultados/`
 
 O programa também gera gráficos em PNG para visualizar a distribuição dos resultados, as médias acumuladas e as trajetórias de saldo.
 
-## 🔁 Reprodutibilidade dos experimentos
+## Reprodutibilidade dos experimentos
 
 O simulador utiliza sementes fixas para inicializar o gerador pseudoaleatório. Isso permite reproduzir as sequências de resultados quando são mantidos o mesmo procedimento, as mesmas sementes e um ambiente compatível.
 
@@ -235,7 +235,7 @@ A repetição dos resultados não significa que os valores observados sejam igua
 
 Para analisar outras sequências, podem ser utilizadas sementes diferentes, como ocorre no segundo experimento.
 
-## 💡 Conclusão
+## Conclusão
 
 O projeto demonstra como conceitos de probabilidade e estatística podem ser aplicados à análise de um sistema aleatório. A comparação entre valores teóricos e observados evidencia a influência da variação amostral, enquanto os experimentos de médias acumuladas e probabilidades condicionais permitem discutir convergência estatística, independência e interpretações equivocadas sobre sequências de resultados.
 
