@@ -9,8 +9,6 @@ O projeto consiste no desenvolvimento de um simulador de uma máquina de três r
 ## 👥 Integrantes
 
 - Alice Lourenço dos Reis
-- Davi Sutil
-- Karyna Carbas
 - Remerson Victor Silva da Assurreição
 
 ## 🎯 Objetivos
