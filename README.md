@@ -1,6 +1,6 @@
 #  Máquina Estatística: Probabilidade, Apostas e Pensamento Crítico
 
-Projeto desenvolvido para a disciplina de **Probabilidade e Estatística I**, do curso de Bacharelado em Sistemas de Informação do Instituto Federal do Espírito Santo (IFES) — Campus Serra.
+Projeto desenvolvido para a disciplina de **Probabilidade e Estatística**, do curso de Bacharelado em Sistemas de Informação do Instituto Federal do Espírito Santo (IFES) — Campus Serra.
 
 O projeto consiste no desenvolvimento de um simulador de uma máquina de três rolos, com o objetivo de aplicar conceitos de probabilidade, variáveis aleatórias, valor esperado, estatística descritiva, simulação de Monte Carlo e probabilidade condicional.
 
